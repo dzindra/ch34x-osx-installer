@@ -1,0 +1,5 @@
+#!/bin/sh
+
+touch /Library/Extensions
+cd /Library/Extensions
+kextload usbserial.kext

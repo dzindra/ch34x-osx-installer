@@ -1,0 +1,7 @@
+#!/bin/sh
+
+cd /Library/Extensions
+if [ -d "usbserial.kext" ]; then
+    kextunload usbserial.kext
+    rm -rf usbserial.kext
+fi
